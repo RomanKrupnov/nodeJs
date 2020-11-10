@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "OrelReshka.js",
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "minimist": "^1.2.5",
+    "request": "^2.88.2",
+    "yandex-translate-api": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanKrupnov/nodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanKrupnov/nodeJs/issues"
+  },
+  "homepage": "https://github.com/RomanKrupnov/nodeJs#readme"
+}
