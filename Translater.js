@@ -1,35 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script>
-    window.addEventListener("DOMContentLoaded", function() {
-        var btn = document.querySelector("#btn"),
-            txt = document.querySelector("#en"),
-            ru = document.querySelector("#ru") ;
-        btn.addEventListener("click", function() {
-            var request = new XMLHttpRequest();
-            var text = encodeURIComponent(txt.value);
-            var key = "t1.9f7L7euelZrKkomRx4-Ox4vPi8bKnpmMj-Xz9xocXAL673coOkv-3fP3WkpZAvrvdyg6S_4.61-WTrj7gpLU7Vf02QpBzI68g3Z1j1Eo10xCsGUl4JNpSvbeyR7nvFOzDCje3C4lRnpRSmRR2dFtiFKVnm4uAQ";
-            var url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key="+key+"&text="+text+"&lang=en-ru&format=plain&options=1"
-            request.open('GET', url, true);
-            request.onload = function() {
-                if (request.status >= 200 && request.status < 400) {
-                    var data = JSON.parse(request.responseText);
-                    ru.value = data.text;
-                }
-            };
-            request.send();
-        });
-    });
-</script>
-</head>
-<body>
-<textarea id="en" name="">word</textarea>
-    <input id="btn" name="" type="button" value="translate">
-    <textarea id="ru" name=""></textarea>
+const axios = require('axios');
+const IAM_TOKEN = 't1.9euelZqdl5iJm8iXnJCWzsjLz5GTnu3rnpWaypKJkcePjseLz4vGyp6ZjI_l8_dXQU8C-u93aV4c_t3z9xdwTAL673dpXhz-.66vH9SnxBtb2Y4eIMXS7QKyTDxEc_hMWqRawBAmLc_1lfVKrSxFHorOKFX5pa61OLaQXOT294lcLXEqi0bp0CA';
+const FOLDER = 'b1gi4vbpjgel68saqvee';
+module.exports = function Translater(request){
+    return axios.post('https://translate.api.cloud.yandex.net/translate/v2/translate/', {
+        "folder_id": FOLDER,
+        ...request
+    }, {
+        headers: {
+            'Content-Type': 'aaplication/json',
+            'Authorization': 'Bearer ' + IAM_TOKEN
+        }
+    })
 
-
-    </body>
-    </html>
+}
