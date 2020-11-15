@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b31baa0-fea6-4db5-85e9-6416b9dba0c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OrelReshka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statisticGame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello world.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Translater.js" beforeDir="false" afterPath="$PROJECT_DIR$/Translater.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chalk-test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-npm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/версия node.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -32,15 +36,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/OSPanel/domains/nodeJS/in.html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -66,6 +71,12 @@
       <updated>1604240797532</updated>
       <workItem from="1604240799664" duration="2038000" />
       <workItem from="1604558600043" duration="7892000" />
+      <workItem from="1604684733120" duration="116000" />
+      <workItem from="1604904968632" duration="3083000" />
+      <workItem from="1604908691099" duration="8214000" />
+      <workItem from="1605019060047" duration="193000" />
+      <workItem from="1605019405942" duration="546000" />
+      <workItem from="1605087489146" duration="18748000" />
     </task>
     <servers />
   </component>
@@ -77,6 +88,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Illuminated_Cloud/0.0.1366.728@0.0.1366.728" timestamp="1604558703845" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1604914480457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604914480457" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1605120060397">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605120060397" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604564129845">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
